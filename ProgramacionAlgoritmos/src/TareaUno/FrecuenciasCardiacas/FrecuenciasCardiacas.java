@@ -8,63 +8,7 @@ package TareaUno.FrecuenciasCardiacas;
 import java.util.Calendar;
 
 public class FrecuenciasCardiacas {
-    private String pNombre;
-    private String apellido;
-    private int anio;
-    private int mes;
-    private int dia;
-
-    public FrecuenciasCardiacas(){
-    }
-    
-    public FrecuenciasCardiacas(String pNombre, String Apellido, int anio, int mes, int dia) {
-        this.pNombre = pNombre;
-        this.apellido = Apellido;
-        this.anio = anio;
-        this.mes = mes;
-        this.dia = dia;
-    }
-
-    public String getpNombre() {
-        return pNombre;
-    }
-
-    public void setpNombre(String pNombre) {
-        this.pNombre = pNombre;
-    }
-
-    public String getApellido() {
-        return apellido;
-    }
-
-    public void setApellido(String Apellido) {
-        this.apellido = Apellido;
-    }
-
-    public int getAnio() {
-        return anio;
-    }
-
-    public void setAnio(int anio) {
-        this.anio = anio;
-    }
-
-    public int getMes() {
-        return mes;
-    }
-
-    public void setMes(int mes) {
-        this.mes = mes;
-    }
-
-    public int getDia() {
-        return dia;
-    }
-
-    public void setDia(int dia) {
-        this.dia = dia;
-    }
-    
+   
     public int calculoEdad (int anio,int mes,int dia){
         
         Calendar actual = Calendar.getInstance();
